@@ -79,13 +79,13 @@ body{
 .box .img-box .img1{
     margin-bottom: auto;
     width: auto;
-    height: 30vh;
+    height: 33vh;
 }
 
 .box .img-box .img2{
     margin-top: 180px;
     width: auto;
-    height: 20vh;
+    height: 28vh;
 }
 
 .box .img-box img{
@@ -132,7 +132,7 @@ body{
 }
 .carousel-text h1{
     color: rgb(77, 68, 151);
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 2px;
     margin-left: 50px;
@@ -141,7 +141,7 @@ body{
 }
 .carousel-text p{
     color: black;
-    font-size: 50px;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
     margin-left: 50px;
