@@ -17,6 +17,9 @@
         transform: translateX(0);
     }
 }
+html,body{
+    overflow-x: hidden;
+}
 
 body{
     background-color: rgb(209, 209, 209);
@@ -35,6 +38,10 @@ body{
     align-items: center;
     text-align: left;
     animation: surgirDireita 1s ease-out forwards;
+}
+.hero img{
+    width: 18vw;
+    height: auto;
 }
 
 .hero h1{
@@ -71,10 +78,14 @@ body{
 }
 .box .img-box .img1{
     margin-bottom: auto;
+    width: auto;
+    height: 30vh;
 }
 
 .box .img-box .img2{
     margin-top: 180px;
+    width: auto;
+    height: 20vh;
 }
 
 .box .img-box img{
@@ -261,7 +272,7 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .team-section h1 {
@@ -277,8 +288,8 @@ div{
 
 .team-member img{
     border-radius: 10%;
-    width: 570px;
-    height: 750px;
+    width: 400px;
+    height: 650px;
     object-fit: cover;
     margin-bottom: 20px;
 }
@@ -308,9 +319,7 @@ div{
 @media (max-width: 900px) {
     /* Ajuste da seção hero */
 
-    html,body{
-        overflow-x: hidden;
-    }
+    
 
     .hero {
         width: 100vw;
