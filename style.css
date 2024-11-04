@@ -365,10 +365,17 @@ div{
         flex-direction: column;
         align-items: center;
     }
-    .box .img-box img {
-        width: 90%;
-        margin-bottom: 20px;
-    }
+    .box .img-box .img1{
+    margin-bottom: auto;
+    width: auto;
+    height: 25vh;
+}
+
+.box .img-box .img2{
+    margin-top: 180px;
+    width: auto;
+    height: 20vh;
+}
 
     /* Ajustes no carrossel */
     .carousel-container {
