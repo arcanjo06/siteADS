@@ -288,8 +288,8 @@ div{
 
 .team-member img{
     border-radius: 10%;
-    width: 400px;
-    height: 650px;
+    width: 350px;
+    height: 500px;
     object-fit: cover;
     margin-bottom: 20px;
 }
