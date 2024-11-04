@@ -37,11 +37,12 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: left;
-    animation: surgirDireita 1s ease-out forwards;
+    
 }
 .hero img{
     width: 18vw;
     height: auto;
+    animation: surgirDireita 1s ease-out forwards;
 }
 
 .hero h1{
